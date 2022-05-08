@@ -8,6 +8,16 @@
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
+  .logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 3rem;
+   
+    align-items: center;
+
+  }
+  
   .heading-secondary {
     font-size: 3.7rem;
   }
@@ -50,6 +60,7 @@
     width: 60%;
   }
   .delivered-meals {
+    flex-direction: column;
     justify-content: center;
   }
   .section-testimonials {

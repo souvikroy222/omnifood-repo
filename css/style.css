@@ -140,6 +140,7 @@ body {
   margin-right: 2rem;
   border-radius: 1rem;
   padding: 1.6rem 3.2rem;
+  margin-bottom: 2rem;
   text-decoration: none;
 }
 .btn--full:link,
@@ -250,7 +251,7 @@ body {
 }
 
 .section-how {
-  padding: 9.6rem 0;
+  padding: 8rem 0;
 }
 
 .heading-secondary {
