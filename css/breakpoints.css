@@ -1,0 +1,165 @@
+@media (max-width: 71em) {
+  .hero {
+    max-width: 120rem;
+  }
+  .hero-primary {
+    font-size: 4.4rem;
+  }
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .heading-secondary {
+    font-size: 3.7rem;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .testimonial-text {
+    font-size: 2rem;
+  }
+  .delivered-images img {
+    width: 4.5rem;
+  }
+}
+
+@media (max-width: 62em) {
+  .heading-secondary {
+    font-size: 3.2rem;
+  }
+  .cta-form label {
+    font-size: 1.4rem;
+  }
+  .testimonials {
+    column-gap: 7rem;
+  }
+  .testimonials-container {
+    padding: 5rem;
+  }
+
+  .logos img {
+    height: 2.4rem;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .hero-img {
+    width: 60%;
+  }
+  .delivered-meals {
+    justify-content: center;
+  }
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .pricing-plan {
+    width: 95%;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 99999;
+  }
+  .main-nav {
+    background-color: rgb(255, 255, 255, 0.97);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;    
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+
+  }
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 8rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  @media (max-width: 53em){
+      .grid--3-cols{
+        grid-template-columns:repeat(2,1fr)
+      }
+      .diets{
+          grid-column: 1/-1;
+          justify-self: center;
+
+      }
+      .heading-secondary{
+          font-size: 2.9rem;
+      }
+      .grid--4-cols{
+        grid-template-columns:repeat(2,1fr)
+
+      }
+      .cta-form{
+        grid-template-columns:repeat(1,1fr)
+      }
+      .grid--footer{
+          column-gap: 2.2rem;
+          row-gap: 7.2rem;
+          grid-template-columns: repeat(6, 1fr);
+      }
+      .logo-col, .address-col{
+          grid-column: span 3;
+      }
+      .nav-col{
+          grid-row: 1;
+          grid-column: span 2;
+      }
+      
+      
+  }
+
+
+}
+
+@media (max-width: 39em){
+    .grid--2-cols{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .testimonials{
+        grid-template-columns: 1fr;
+    }
+    .grid--3-cols {
+        grid-template-columns: 1fr;
+    }
+    .gallery{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .cta{
+        grid-template-columns: 1fr; 
+    }
+    .cta-img-box{
+        height: 36rem;  
+        grid-row: 1; 
+    }
+
+  }
