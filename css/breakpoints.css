@@ -71,6 +71,7 @@
   }
   .pricing-plan {
     width: 95%;
+    margin: auto;
   }
 
   .btn-mobile-nav {
